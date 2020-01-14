@@ -3,7 +3,7 @@
 # About
 
 The AlgorithMe API is spaced-repetition algorithm for, well, algorithms. It is designed to work with the AlgorithMe client.
-The AlgorithMe client can be found here: https://github.com/thinkful-ei-gecko/nancy-scott-spaced-repetition-client
+The AlgorithMe client can be found here: https://github.com/nphiukhao/algorithme-client.git
 
 The API supports the following endpoints:
 
@@ -19,6 +19,15 @@ api/auth/token - signs the user in and returns a JWT
 
 POST 
 api/user/ - creates a new user
+
+## Tech Stacks 
+
+- Express
+- Node
+- PostgreSQL
+- knex
+- Tests:
+  - Mocha, Chai
 
 ## Local dev setup
 
