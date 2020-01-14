@@ -58,7 +58,6 @@ languageRouter
         wordCorrectCount: headWord[0].correct_count,
         wordIncorrectCount: headWord[0].incorrect_count
       })
-      res.send('blah')
       next()
     } catch (error) {
       next(error)
@@ -103,7 +102,6 @@ languageRouter
     } catch (error) {
       next(error)
     }
-    res.send('implement me!')
   })
 
 module.exports = languageRouter
